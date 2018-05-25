@@ -38,11 +38,11 @@ body,html {
 }
 
 #name {
-    font-size: 7vw;
+    font-size: 700px;
     font-weight: 500;
 }
 #desc {
-    font-size: 3.5vw;
+    font-size: 350px;
     font-weight: 400;
 }
 
