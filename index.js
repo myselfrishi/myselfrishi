@@ -1,6 +1,6 @@
 var codeBtn = document.getElementById('code');
 var twitterBtn = document.getElementById('twitter');
-var spotifyBtn = document.getElementById('playlist');
+var SpotifyBtn = document.getElementById('spotify');
 
 function replaceCodeText(e) {
     codeBtn.innerHTML="Python, JS";
@@ -23,12 +23,11 @@ twitterBtn.addEventListener("mouseover",replaceTweetText);
 twitterBtn.addEventListener("mouseout",resetTweetText);
 
 function replaceSpotifyText(e) {
-    spotifyBtn.innerHTML="ULP";
+    SpotifyBtn.innerHTML="U.L.P.";
 }
 function resetSpotifyText(e) {
-    spotifyBtn.innerHTML="SPOTIFY";
+    SpotifyBtn.innerHTML="SPOTIFY";
 }
 
-spotifyBtn.addEventListener("mouseover",replaceSpotifyText);
-spotifyBtn.addEventListener("mouseout",resetSpotifyText);
-
+SpotifyBtn.addEventListener("mouseover",replaceSpotifyText);
+SpotifyBtn.addEventListener("mouseout",resetSpotifyText);
