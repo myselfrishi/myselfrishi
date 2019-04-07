@@ -60,15 +60,22 @@ body,html {
 }
 
 #code {
-    width: 70%;
+    width: 100%;
     font-size: 3em;
     background-color: #f2d013;
     color: #393939;
 }
 
 #twitter {
-    width: 30%;
+    width: 100%;
     font-size: 3em;
     background-color: #1c9ee3;
     color: white;
+}
+
+#spotify {
+    width: 100%;
+    font-size: 3em;
+    background-color: #42f45c;
+    color: black;
 }
