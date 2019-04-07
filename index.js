@@ -1,6 +1,6 @@
 var codeBtn = document.getElementById('code');
 var twitterBtn = document.getElementById('twitter');
-var spotifyBtn = document.getElementById('spotify');
+var spotifyBtn = document.getElementById('playlist');
 
 function replaceCodeText(e) {
     codeBtn.innerHTML="Python, JS";
