@@ -13,7 +13,7 @@ codeBtn.addEventListener("mouseover",replaceCodeText);
 codeBtn.addEventListener("mouseout",resetCodeText);
 
 function replaceTweetText(e) {
-    twitterBtn.innerHTML="@shreydanmusic";
+    twitterBtn.innerHTML="tweets";
 }
 function resetTweetText(e) {
     twitterBtn.innerHTML="TWITTER";
