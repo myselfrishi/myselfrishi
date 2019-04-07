@@ -1,5 +1,6 @@
 var codeBtn = document.getElementById('code');
 var twitterBtn = document.getElementById('twitter');
+var SpotifyBtn = document.getElementById('spotify');
 
 function replaceCodeText(e) {
     codeBtn.innerHTML="Python, JS";
@@ -12,7 +13,7 @@ codeBtn.addEventListener("mouseover",replaceCodeText);
 codeBtn.addEventListener("mouseout",resetCodeText);
 
 function replaceTweetText(e) {
-    twitterBtn.innerHTML="@shreydan";
+    twitterBtn.innerHTML="@shreydanmusic";
 }
 function resetTweetText(e) {
     twitterBtn.innerHTML="TWITTER";
@@ -20,3 +21,14 @@ function resetTweetText(e) {
 
 twitterBtn.addEventListener("mouseover",replaceTweetText);
 twitterBtn.addEventListener("mouseout",resetTweetText);
+
+function replaceSpotifyText(e) {
+    twitterBtn.innerHTML="ULP";
+}
+function resetSpotifyText(e) {
+    twitterBtn.innerHTML="SPOTIFY";
+}
+
+spotifyBtn.addEventListener("mouseover",replaceSpotifyText);
+spotifyBtn.addEventListener("mouseout",resetSpotifyText);
+
